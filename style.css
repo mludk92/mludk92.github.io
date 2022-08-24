@@ -1,0 +1,114 @@
+#container {
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+  padding: 10px 150px 10px 150px;
+  
+  border-radius: 400px;
+    width: 400px;
+  border: 30px solid black;
+  padding: 150px 300px 150px 300px;
+  margin: 20px;
+  background-color: #DBF9FC;
+
+  text-align: Center;
+}
+
+
+
+#work {
+  font-size: 42px;
+  text-align: center;
+}
+
+
+#summary {
+  font-size: 18px;
+  text-align: center;
+}
+
+
+h1 {
+   text-transform: uppercase;
+   background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 60px;
+}
+
+
+
+h2 {
+  font-size: 18px;
+  margin-bottom: -6px;
+  text-decoration: underline overline black;
+}
+
+h3 {
+  font-size: 26px;
+  margin-bottom: -10px;
+  text-shadow: 2px 2px 5px blue;
+  text-align: center;
+  
+}
+
+h4 {
+  font-size: 22px;
+  margin-bottom: -10px;
+  text-align: center;
+  
+}
+h5 {
+  font-size: 22px;
+  margin-bottom: -10px;
+  text-align: center;
+  
+}
+
+li {
+  font-size: 18px;
+  text-align: left;
+}
+
+#button {
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color: #C4CECD;
+
+  border-radius: 15px;
+  height: 100px;
+}
+.summary:hover {
+  animation: shake 2s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+}
